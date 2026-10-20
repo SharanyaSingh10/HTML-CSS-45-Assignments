@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+}
+
+/* Assignment 31: Responsive Menu bar alignments using display flex features */
+.flex-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e293b;
+    padding: 15px 40px;
+    color: #ffffff;
+}
+
+.nav-links a {
+    color: #38bdf8;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/* Assignment 34 & 35: Full Responsive Hero splitting structure nodes via flex parameters */
+.flex-hero {
+    display: flex;
+    background-color: #ffffff;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.hero-split-text, .hero-split-visual {
+    flex: 1;
+}
+
+.hero-split-text h2 {
+    font-size: 32px;
+    color: #0f172a;
+}
+
+.hero-split-visual img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Assignment 33: Product listing configurations executing wrapping constraints */
+.catalog-section {
+    padding: 40px;
+}
+
+.flex-wrap-catalog {
+    display: flex;
+    flex-wrap: wrap; /* Critical wrapping instruction requested by assignment metrics */
+    gap: 20px;
+}
+
+.catalog-item {
+    background-color: #ffffff;
+    padding: 30px;
+    flex: 1;
+    min-width: 220px; /* Forces wrapping mechanics when scaling bounds crunch down */
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    font-weight: bold;
+}
+
+/* Assignment 32: Perfectly centered login-form execution using display flex alignment matrices */
+.fullscreen-center-wrapper {
+    display: flex;
+    justify-content: center; /* Horizontally centered */
+    align-items: center;     /* Vertically centered alignment node */
+    background-color: #cbd5e1;
+    padding: 60px 20px;
+}
+
+.flex-login-card {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 360px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.form-row {
+    margin-bottom: 15px;
+}
+
+.form-row input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #94a3b8;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #0284c7;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}

@@ -1,0 +1,52 @@
+/* Assignment 24: Design tokens defined globally via core CSS Variables */
+:root {
+    --primary-brand: #2c3e50;    /* Dark slate professional color */
+    --accent-teal: #1abc9c;     /* Clean energetic brand teal */
+    --neutral-light: #f8f9fa;   /* Softer workspace canvas white */
+    --text-main: #34495e;       /* Readable charcoal for body paragraphs */
+    --base-font-size: 16px;
+}
+
+/* Assignment 22: Four different selector types accurately configured below */
+
+/* Type 1: Element Selector */
+body {
+    background-color: var(--neutral-light);
+    color: var(--text-main);
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Primary Font pairing */
+    font-size: var(--base-font-size);
+    margin: 40px;
+    line-height: 1.6;
+}
+
+/* Type 2: Class Selector */
+.main-header {
+    background-color: var(--primary-brand);
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.subtitle-track {
+    color: var(--accent-teal);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Type 3: ID Selector */
+#global-footer {
+    margin-top: 40px;
+    border-top: 2px dashed #bdc3c7;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Type 4: Descendant/Complex Selector combo */
+.profile-block h2 {
+    color: var(--primary-brand);
+    font-family: 'Georgia', serif; /* Paired Heading Font for rich typography hierarchy */
+    border-left: 5px solid var(--accent-teal);
+    padding-left: 10px;
+}

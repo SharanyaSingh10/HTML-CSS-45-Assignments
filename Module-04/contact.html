@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Integrated interactive career management node enabling drop-downs and documentation parsing.">
+    <title>Contact - Multi-Input Job Application Form</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home Dashboard</a> | 
+            <a href="about.html">About & Size Table (Task 18)</a> | 
+            <a href="register.html">Registration (Task 16)</a> | 
+            <a href="contact.html">Career App Form (Task 17)</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Assignment 17: Interactive Dropdown Career Framework</h2>
+        <p>Process your employment details through the multi-input dashboard system block below:</p>
+
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="targetRole">Select Targeted Employment Position:</label><br>
+            <select id="targetRole">
+                <option value="frontend_eng">Junior Frontend Engineer Trainee</option>
+                <option value="fullstack_dev">Full-Stack Cloud Application Developer</option>
+                <option value="uiux_designer">Lead Product Interface UI/UX Designer</option>
+            </select>
+            <br><br>
+
+            <label for="resumeAttachment">Upload Verified Resume File Node:</label><br>
+            <input type="file" id="resumeAttachment" accept=".pdf,.doc,.docx" required>
+            <br><br>
+
+            <label for="applicationSummary">Professional Application Cover Letter Statement:</label><br>
+            <textarea id="applicationSummary" rows="6" cols="45" placeholder="Elaborate details on your core engineering skill assets..."></textarea>
+            <br><br>
+
+            <button type="submit">Deploy System Job Application</button>
+        </form>
+    </main>
+</body>
+</html>
