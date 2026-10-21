@@ -1,4 +1,0 @@
-Assignment 25: Design Choice Explanations
-
-1. Font Pairing Matrix: We selected 'Georgia' serif styles for primary headings to give clean structural authority, paired with 'Helvetica Neue' sans-serif text for body elements to ensure perfect readability on monitor panels.
-2. Palette Scheme: Developed an elite professional slate (#2c3e50) base matching perfectly with a dynamic bright custom teal accent token (#1abc9c) to deliver an optimized balance of contrast and modern interface layout aesthetics.
