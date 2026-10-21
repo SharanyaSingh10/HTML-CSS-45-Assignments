@@ -1,5 +1,0 @@
-Assignment 3: Terminal Commands
-1. pwd  - Print current working directory
-2. ls   - List files in current folder
-3. cd .. - Move back one folder level
-4. mkdir - Create a new folder
